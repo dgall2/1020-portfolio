@@ -1,0 +1,219 @@
+@font-face {
+    font-family: Orbitron;
+    src: url(Orbitron-VariableFont_wght.ttf);
+}
+
+h2 {
+    color:#262625;
+    font-size:5vh;
+    font-family:Orbitron, sans-serif;
+    font-weight:20;
+    /* font-style:light; */
+    text-align:center;
+}
+
+h3 {
+    color:#262625;
+    font-size:calc(0.91vw + 15px);
+    font-family:Orbitron, sans-serif;
+    font-weight:15;
+    text-align: center;
+}
+
+h4 {
+    color:#262625;
+    font-size:calc(0.5vw + 8px);
+    font-family:sans-serif;
+    font-weight:15;
+    text-align: center;
+}
+
+h6 {
+    color:#262625;
+    font-size:calc(0.71vw + 8px);
+    font-family:sans-serif;
+    font-weight:15;
+    text-align: center;
+}
+
+
+h5 {
+    color:#262625;
+    font-size:13;
+    font-family:Orbitron, sans-serif;
+    font-style:italic;
+    font-weight:15;
+    text-align: center;
+    padding:2px;
+
+}
+#port{
+    position:fixed;
+    top:2vh;
+    width:100vw;
+}
+
+
+#map {
+    margin-top:40vh;
+    margin-left:134px;
+}
+
+body {
+    background: radial-gradient(#f2f5d0, #60a8b5);
+}
+
+/* a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+} */
+/* Classes */
+.reading{
+    position:absolute;
+    z-index:1000;
+    top:calc(40vh + 65px);
+    border-radius:50%;
+    width:20px;
+    height:20px;
+    background:transparent;
+}
+
+
+.assignment-top{
+    position:absolute;
+    z-index:1000;
+    top:calc(40.5vh);
+    border-radius:50%;
+    width:20px;
+    height:20px;
+    background:transparent;
+}
+
+.assignment-bottom{
+    position:absolute;
+    z-index:1000;
+    top:calc(40vh + 127px);
+    border-radius:50%;
+    width:20px;
+    height:20px;
+    background:transparent;
+}
+
+
+.blurbs {
+    position:fixed;
+    border-radius: 25px;
+    background: radial-gradient(#f2f5d0, #60a8b5);
+
+    border: 3px solid #262625;
+    padding: 10px;
+    padding-top:2px;
+    width:80vw;
+    height: 190px;
+    margin-left:7.5vw;
+    bottom:25px;
+    visibility:hidden;
+}
+
+.blurbs:target{
+    visibility:visible;
+}
+
+#closer:visited{
+    visibility:hidden;
+}
+
+
+
+
+#closer:visited{
+    visibility:hidden;
+}
+
+#intro {
+    margin-left:135px;
+}
+
+#r1 {
+    margin-left:175px;
+}
+
+#r2 {
+    margin-left:355px;
+}
+
+#r3 {
+    margin-left:542px;
+}
+
+#r4 {
+    margin-left:730px;
+}
+
+#r5 {
+    margin-left:914px;
+}
+
+#r6 {
+    margin-left:1100px;
+}
+
+#r7 {
+    margin-left:1285px;
+}
+
+#r8 {
+    margin-left:1475px;
+}
+
+#r9 {
+    margin-left:1660px;
+}
+
+#r10 {
+    margin-left:1846px;
+}
+
+#r11 {
+    margin-left:2035px;
+}
+
+#reflection {
+    margin-left:2200px;
+}
+
+/* Begin assignments */
+
+#s1a2 {
+    margin-left:242px;
+}
+
+#s1fp {
+    margin-left:807px;
+}
+
+#s2a1 {
+    margin-left:844px;
+}
+
+#s2a2 {
+    margin-left:1192px;
+}
+
+#s2fp {
+    margin-left:1548px;
+}
+
+#s3a1 {
+    margin-left:1562px;
+}
+
+#s3a2 {
+    margin-left:1812px;
+}
+
+#s3fp {
+    margin-left:2061px;
+}
